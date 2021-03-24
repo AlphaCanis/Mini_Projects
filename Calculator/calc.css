@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+   border: 2px solid black; 
+   width: 40vw;
+   height: 60vh;
+   margin: 10px auto;
+   margin-top: 100px;
+   background-color: skyblue;
+
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(139, 6, 28);
+}
+.calculator {
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: gray;
+  }
+input {
+    display: block;
+    margin: auto;
+    font-size: 2.0rem;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgba(141, 197, 141, 0.432);
+    border: 5px darkgreen;
+    text-align: center;
+  }
+table {
+    margin: auto;
+    width:70% ;
+    height: 60%;
+    background-color: gray;
+  }
+  td{
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      margin: 0px ;
+      border: none;
+      transition: 100ms;
+
+      
+    
+  }
+  button{
+      display: block;
+      height: 100%;
+      width: 100%;
+      border: 1px;
+      font-size: 1.5rem;
+      color: #fff;
+      background: #fff; /* fallback color for old browsers */
+      background: rgba(5, 5, 5, 0.5);
+      transition: all 0.3s ease-out;
+
+  }
+  #lc{
+      background-color: rgb(255, 167, 36);
+  }
+   
+  #rbtn:hover,
+  #rbtn:focus,
+  #rbtn:active {
+  background: rgb(226, 71, 71);
+  color: #000;
+  transition: all 0.3s ease-in;
+}
+  button:hover,
+  button:focus,
+  button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.3s ease-in;
+  
+}
+button:hover{
+    cursor: pointer;
+}
+
+.semi-transparent:focus {
+    outline: none;
+  }
+
+td:active {
+    transform: scale(0.9);
+  }
